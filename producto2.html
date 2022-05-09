@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css"
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/app.css" as="style">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Producto</title>
+</head>
+<body>
+    <header class="header contenedor">
+        <a href="index.html"> <img class="header__imagen" src="img/logo.png" alt="logo de pagina"></a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html">Tienda</a>
+        <a class="navegacion__enlace " href="nosotros.html">Nosotros</a>
+    </nav>
+    <main class="contenedor">
+        <h1>Value JS</h1>
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/2.jpg" alt="imagen prodcuto">
+            <div class="camisa__contenido">
+                <p class="camisa__descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium nisi reprehenderit temporibus quas eveniet. Error adipisci debitis excepturi quae perferendis fuga, unde recusandae, soluta voluptates ex nesciunt. Consectetur, distinctio illo!</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>--Seleccionar Talla--</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" min="1" max="5">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto"> Diseñado por: Edgar Ramírez - Todos los derechos reservados 2022</p>
+    </footer>
+    
+</body>
+</html>
