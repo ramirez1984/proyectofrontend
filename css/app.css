@@ -326,3 +326,9 @@ h1 span {
     cursor: pointer;
     background-color: var(--tercero);
 }
+
+@media (max-width: 480px) {
+    .formulario__submit {
+        margin-bottom: 10rem;
+    }
+}
